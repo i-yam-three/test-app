@@ -1,0 +1,11 @@
+
+.last-items-footer {
+  width: 40%;
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  flex-direction: column;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+}
